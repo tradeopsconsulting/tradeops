@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/assets/:path*",
-      "destination": "https://cdn.jsdelivr.net/gh/tradeopsconsulting/tradeops@001ca0d/dist/assets/:path*"
+      "destination": "https://cdn.jsdelivr.net/gh/tradeopsconsulting/tradeops@e72e8ed/dist/assets/:path*"
     },
     {
       "source": "/fonts/:file",
