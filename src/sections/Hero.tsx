@@ -44,13 +44,6 @@ export function Hero() {
           <p className="animate-fade-rise-delay-2 mt-4 text-[0.8125rem] text-white/52">
             {hero.micro}
           </p>
-          <ul className="animate-fade-rise-delay-3 mt-6 flex flex-col items-center gap-1.5">
-            {hero.trust.map((item) => (
-              <li key={item} className="text-[0.8125rem] text-white/62">
-                {item}
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </section>
