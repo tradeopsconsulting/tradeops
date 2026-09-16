@@ -18,17 +18,12 @@ export const nav = {
 } as const;
 
 export const hero = {
-  eyebrow: "HVAC and plumbing only · Built by operators",
+  eyebrow: "Home service only · Built by operators",
   h1Sans: "More booked jobs in six months,",
   h1Serif: "or we stop charging.",
-  sub: "TradeOps gets HVAC and plumbing companies found, gets the phone ringing, and ties every booked job back to the work that produced it. One shop for the brand, the marketing, and the tracking — and every figure we publish names its source and its window.",
+  sub: "TradeOps gets home service companies found, gets the phone ringing, and ties every booked job back to the work that produced it. One shop for the brand, the marketing, and the tracking — and every figure we publish names its source and its window.",
   ctaPrimary: BOOK_LABEL,
   ctaSecondary: "See real results",
-  trust: [
-    "Five clients named on this page",
-    "Every figure sourced and dated",
-    "Cancel any time on thirty days’ notice",
-  ],
   micro: "Free audit · 15 minutes · You keep the written plan either way",
 } as const;
 
@@ -467,7 +462,7 @@ export const comparison = {
     {
       label: "Industry focus",
       theirs: "Any business with a credit card",
-      ours: "HVAC and plumbing only",
+      ours: "Home service only",
     },
     {
       label: "Tracking",
@@ -571,11 +566,11 @@ export const faq = {
   items: [
     {
       q: "Who is this for?",
-      a: "HVAC and plumbing operators who want more booked jobs they can trace — not a logo refresh and a hope. If you run the trucks (or a portfolio of companies that do), the audit is built for you.",
+      a: "Home service operators who want more booked jobs they can trace — not a logo refresh and a hope. If you run the trucks (or a portfolio of companies that do), the audit is built for you.",
     },
     {
       q: "How is TradeOps different from every other agency that pitched me?",
-      a: "We build for HVAC and plumbing and nothing else. One of us ran a home service company and sold it. Every figure on this page names its source and the window it covers, and the work is backed by a six-month guarantee on the ledger.",
+      a: "We build for home service companies and nothing else. One of us ran a home service company and sold it. Every figure on this page names its source and the window it covers, and the work is backed by a six-month guarantee on the ledger.",
     },
     {
       q: "How long before I see results?",
@@ -601,7 +596,7 @@ export const faq = {
 } as const;
 
 export const finalCta = {
-  eyebrow: "HVAC and plumbing only",
+  eyebrow: "Home service only",
   headSans: "You run the trucks.",
   headSerif: "We fill the schedule.",
   body: "We look at your business — or a portfolio company — and send back a written plan. Where you rank today. Where the calls are going. Which leads never got followed up. What the missed replacement work is worth. Then what to do first.",
