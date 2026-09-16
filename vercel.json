@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/assets/:path*",
+      "destination": "https://cdn.jsdelivr.net/gh/tradeopsconsulting/tradeops@001ca0d/dist/assets/:path*"
+    },
+    {
       "source": "/fonts/:file",
       "destination": "https://cdn.jsdelivr.net/gh/tradeopsconsulting/tradeops@main/public/fonts/:file"
     },
